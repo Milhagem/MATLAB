@@ -10,10 +10,9 @@ Autor: Thiago Wriel
 Esse código tem como objetivo ler um arquivo .csv, analizar seus dados e
 encontrar a energia cunsumida pelo motor
 %}
-clc
 
 % Configuracoes Iniciais e leitura do .csv
-filepath = '/inversor3-30V-10maio.csv';
+filepath = '/inversorV3-22-05.csv';
 data = readtable(filepath, 'HeaderLines', 1);
 TIME = data.Var1;
 CH1 = data.Var2;
